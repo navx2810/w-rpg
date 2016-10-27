@@ -7,8 +7,11 @@ const s = createServer()
 s.use(bodyParser())
 s.use(queryParser())
 
-import { Greet } from "./routes"
+import { Greet, Accounts, Players } from "./routes"
 
 s.get("/", Greet)
+s.put("/login", Accounts.Login)
+s.put("/logout", Accounts.Logout)
+s.get("/players", Players.Get)
 
 s.listen(6082)
