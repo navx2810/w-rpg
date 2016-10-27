@@ -1,0 +1,21 @@
+{
+  
+  "scripts": {
+    "start": "node js/index.js"
+  },
+
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "restify": "^4.2.0",
+    "rethinkdb": "^2.3.3",
+    "vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/jsonwebtoken": "^7.1.33",
+    "@types/node": "^6.0.46",
+    "@types/restify": "^2.0.34",
+    "@types/rethinkdb": "^1.10.30",
+    "@types/vue": "^1.0.31"
+  }
+}
