@@ -1,9 +1,8 @@
 {
-  
   "scripts": {
-    "start": "node js/index.js"
+    "start": "node js/index.js",
+    "dev": "webpack-dev-server --content-base client/dist --port 1234"
   },
-
   "dependencies": {
     "jsonwebtoken": "^7.1.9",
     "restify": "^4.2.0",
@@ -15,6 +14,8 @@
     "@types/node": "^6.0.46",
     "@types/restify": "^2.0.34",
     "@types/rethinkdb": "^1.10.30",
-    "@types/vue": "^1.0.31"
+    "@types/vue": "^1.0.31",
+    "html-loader": "^0.4.4",
+    "ts-loader": "^0.9.5"
   }
 }
