@@ -15,3 +15,10 @@ s.put("/logout", Accounts.Logout)
 s.get("/players", Players.Get)
 
 s.listen(6082)
+
+import * as Models from "./models"
+async function TestReadFromDB() {
+    console.log(await Models.Accounts.All())
+}
+
+TestReadFromDB()
