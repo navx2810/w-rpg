@@ -1,7 +1,8 @@
 <div>
-    <form>
+    <div class="info red" v-if="error"><p>{{error}}</p> <p class="close">x</p> </div>
+    <div class="login">
         <input v-model="credential" type="text" placeholder="Email or Username">
         <input v-model="password" type="password" placeholder="Password">
         <div class="btn" @click="login" >Login</div>
-    </form>
+    </div>
 </div>

@@ -1,0 +1,43 @@
+#app {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans";
+}
+.login {
+  display: flex;
+}
+.login input {
+  border: 0;
+  margin: 0 0.1em;
+  flex: 1 1 auto;
+  text-align: center;
+  background: #eee;
+  border-bottom: 2px solid #009696;
+}
+.login .btn {
+  cursor: pointer;
+  padding: 1em;
+  background: #333;
+  color: #fff;
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  text-align: center;
+  font-weight: 600;
+  margin: 0.25em 0em;
+  padding: 1em;
+  border-radius: 0.5em;
+  background: rgba(200,25,10,0.2);
+  color: #c83200;
+}
+.info p {
+  flex: 1 1 auto;
+  padding: 0;
+  margin: 0;
+}
+.info p.close {
+  cursor: pointer;
+  flex: 0 0 fit-content;
+  text-align: right;
+}

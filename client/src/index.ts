@@ -12,6 +12,7 @@ Vue.component("login", {
     template: require("./temp/login.html"),
 
     data: () => ({
+        error: "Invalid credentials",
         credential: "",
         password: ""
     }),

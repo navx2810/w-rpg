@@ -4,6 +4,6 @@
         "target": "es6",
         "outDir": "js",
         "noImplicitAny": false,
-        "sourceMap": false
+        "sourceMap": true
     }
 }
