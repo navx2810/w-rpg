@@ -5,5 +5,9 @@
         "outDir": "js",
         "noImplicitAny": false,
         "sourceMap": true
-    }
+    },
+    "exclude": [
+        "client/",
+        "node_modules/"
+    ]
 }

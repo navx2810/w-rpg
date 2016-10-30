@@ -3,7 +3,8 @@
     "start": "node --no-warnings js/server/index.js",
     "debug": "node --no-warnings --inspect --debug-brk js/server/index.js",
     "css": "stylus -o client/dist/ client/src/stylus",
-    "dev": "webpack-dev-server --content-base client/dist --port 1234"
+    "dev": "webpack-dev-server --content-base client/dist --port 1234",
+    "test": "mocha js/tests/server/test.js"
   },
   "dependencies": {
     "jsonwebtoken": "^7.1.9",
@@ -13,13 +14,17 @@
     "vue": "^2.0.3"
   },
   "devDependencies": {
+    "@types/chai": "^3.4.34",
     "@types/jsonwebtoken": "^7.1.33",
     "@types/lodash": "^4.14.37",
+    "@types/mocha": "^2.2.32",
     "@types/node": "^6.0.46",
     "@types/restify": "^2.0.34",
     "@types/rethinkdb": "^1.10.30",
     "@types/vue": "^1.0.31",
+    "chai": "^3.5.0",
     "html-loader": "^0.4.4",
+    "mochawesome": "^1.5.3",
     "ts-loader": "^0.9.5"
   }
 }
